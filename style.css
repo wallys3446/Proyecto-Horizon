@@ -1,4 +1,11 @@
-
+@font-face {
+    font-family: "Inconsolata";
+    src: url("C:\Users\ALEXANDRA\Desktop\Fonts\Inconsolata-VariableFont_wdth,wght.ttf");
+}
+@font-face {
+    font-family: "Poppins";
+    src: url("C:\Users\ALEXANDRA\Desktop\Fonts\Poppins-Bold.ttf");
+}
 ★ { 
     box-sizing: border-box;
 }
@@ -18,6 +25,7 @@ body {
      font-size: 2.5em;
      margin: 10px 0;
      color: #454546;
+     font-family: "Poppins";
  }
 .main-nav { 
     display: none;
