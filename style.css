@@ -157,3 +157,7 @@ body {
     border: 1px solid #ccc;
     padding: 20px;
 }
+.product__title {
+text-align: center;
+
+}
