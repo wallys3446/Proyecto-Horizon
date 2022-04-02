@@ -59,7 +59,8 @@ body {
 }
 
 .main {
-    padding: 10px;
+    padding: 0 20px;
+    padding-bottom: 500px;
 }
 
 /*Estilos De Slider*/
@@ -189,4 +190,42 @@ text-align: center;
 .product__icon {
     display: block;
     margin-top: 10px;
+}
+.container-editor {
+    margin-top: 50px;
+}
+.editor__item {
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+}
+.editor__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.editor__circle {
+    width: 200px;
+    height: 200px;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -300px;
+    right: -400px;
+    color: white;
+    padding: 20px;
+    padding-bottom: 70px;
+    padding-right: 50px;
+    font-size: 1.1em;
+    text-align: center;
+    font-weight: bold;
+    transition: all 0.5s;
+}
+.editor__item:hover .editor__circle{
+    transform: scale(1.2);
+    bottom: -150px;
+    right: -50px;
 }
