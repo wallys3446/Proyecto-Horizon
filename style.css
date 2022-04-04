@@ -191,9 +191,22 @@ text-align: center;
     display: block;
     margin-top: 10px;
 }
-.container-editor {
-    margin-top: 50px;
+
+
+.container__testimonials {
+    text-align: center;
+    background: #f7f7f7;
+    padding: 20px;
+    margin: 20px 0;
 }
+.opiniones__txt {
+    color: #777;
+}
+
+.container-editor {
+    margin-top: 20px;
+}
+
 .editor__item {
     height: 200px;
     position: relative;
@@ -228,4 +241,18 @@ text-align: center;
     transform: scale(1.2);
     bottom: -150px;
     right: -50px;
+}
+.editor__item:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.404);
+    opacity: 0;
+    transition: all 0.5s;
+}
+.editor__item:hover:before {
+    opacity: 1;
 }
