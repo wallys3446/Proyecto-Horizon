@@ -27,6 +27,7 @@ body {
      color: #454546;
      font-family: "Poppins";
  }
+ /*Estilos del menu*/
 .main-nav { 
     display: none;
 }
@@ -52,6 +53,7 @@ body {
 .main-header__imput{ 
     display: block;
     padding: 10px;
+    width: 50%;
 }
 .main-title {
     text-align: center;
@@ -60,7 +62,6 @@ body {
 
 .main {
     padding: 0 20px;
-    padding-bottom: 500px;
 }
 
 /*Estilos De Slider*/
@@ -259,8 +260,55 @@ text-align: center;
 .container-tips {
     margin: 20px 0;
     text-align: center;
-
 }
+.tip {
+    font-size: 2em; 
+    color: #333;
+    padding: 20px 0;
+ }
 .tip .btn-shop {
-    
+    color: #333;
+}
+.main-footer {
+    background: #151515;
+    color: white;
+    padding: 30px 20px;
+}
+.footer__title {
+    border-bottom: 1px dotted #555;
+    padding-bottom: 20px;
+}
+.footer__txt {
+    color: #555;
+}
+.footer__link {
+    color: #555;
+    text-decoration: none;
+    display: block;
+    padding: 10px 0;
+}
+.footer__input {
+    background: 151515;
+    width: 100%;
+    display: block;
+    padding: 20px;
+    border: 1px solid #555;
+}
+.copy {
+    color: #555;
+}
+
+/*Estilo PARA TABLETS*/
+@media screen and (main-width:768px) {
+    .slider {
+        height: 400px;
+    }
+    .editor__item {
+        height: 250px;
+
+    }
+}
+/*Estilo PARA WEB*/
+@media screen and (main-width:1024px) {
+
 }
