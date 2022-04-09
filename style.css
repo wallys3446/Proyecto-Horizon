@@ -424,6 +424,10 @@ color: white;
         color: white;
         transition: all 0.5s;
     }
+    .container-products {
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 10px;
+    }
 
 }
 @media screen and (min-width:1280px) { 
