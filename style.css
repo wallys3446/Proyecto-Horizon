@@ -73,7 +73,7 @@ body {
     opacity: 1;
     visibility: visible;
   }
-.icon-menu{
+.icon-menu {
     font-size: 1.5em;
     border: 1px solid #454546;
     display: block;
@@ -187,6 +187,11 @@ body {
     text-decoration: none;
     width: 150px;
     margin: 20px auto;
+    transition: all 0.5s;
+}
+.btn-shop:hover {
+    background: black;
+    color: white;
 }
 
 /*Estilo De Productos*/
@@ -307,6 +312,10 @@ text-align: center;
 .tip .btn-shop {
     color: #333;
 }
+.btn-shop:hover{
+color: white;
+}
+
 .main-footer {
     background: #151515;
     color: white;
@@ -347,6 +356,9 @@ text-align: center;
     }
 }
 /*Estilo PARA WEB*/
-@media screen and (main-width:1024px) {
 
+@media screen and (main-width:1024px) {
+    .icon-menu {
+        display: none;
+    }
 }
