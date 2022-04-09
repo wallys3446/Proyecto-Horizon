@@ -361,4 +361,13 @@ color: white;
     .icon-menu {
         display: none;
     }
+    .main-nav {
+        visibility: visible;
+        opacity: 1;
+    }
+    .menu {
+        position: static;
+        width: 100%;
+        display: flex;
+    }
 }
