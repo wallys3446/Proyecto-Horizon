@@ -448,7 +448,16 @@ color: white;
           width: 47%;
           height: 400px;
       }
-    
+      .main-footer{
+          display: grid;
+          grid-template-columns: repeat(4, 1fr);
+          grid-gap: 20px;
+      }
+      .copy{
+          grid-column-start: span 4;
+          text-align: center;
+      }
+}
 @media screen and (min-width:1280px) { 
     .container {
         width: 1200px;
@@ -461,6 +470,7 @@ color: white;
     }
     .slider {
         height: 500px;
+        font-size: 1.5em;
     }
 }    
 @media screen and (min-width:1600px) {
